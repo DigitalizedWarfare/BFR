@@ -1,4 +1,4 @@
-/* 
+/*
    +----------------------------------------------------------------------+
    | Better Function Replacer											  |
    | based on APD Profiler & Debugger     								  |
@@ -35,7 +35,7 @@
 #include "zend_execute.h"
 #include "zend_compile.h"
 #include "zend_extensions.h"
- 
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <sys/un.h>
@@ -64,7 +64,7 @@ PHP_MINFO_FUNCTION(bfr);
 extern zend_module_entry bfr_module_entry;
 #define bfr_module_ptr &bfr_module_entry
 
-#define PHP_BFR_VERSION "0.1"
+#define PHP_BFR_VERSION "0.2"
 
 #define FUNCTION_TRACE 1
 #define ARGS_TRACE 2
